@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom CSS here */
+/* *{
+  color: #fff;
+} */
+ .navliste{
+  color: white;
+ }
+.navliste:hover{
+
+   color: rgb(0, 255, 255);
+}
+.editorjsdiv  h2{
+   font-weight: 700;
+   font-size: 30px;
+}
+.editorjsdiv  h3{
+   font-weight: 500;
+   font-size: 25px;
+}
+.editorjsdiv  li{
+   margin-bottom: 10px;
+   list-style-type: disc;
+   padding-left: 10px;
+   margin-left: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+   .heroe{
+      display: none;
+   }
+   
+}
